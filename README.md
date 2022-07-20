@@ -42,7 +42,7 @@ to start client
   npm start
 ```
 
-## Author
+## Authors
 
 👤 **UPenn Game Enthusiasts**
 
