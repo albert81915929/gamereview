@@ -47,3 +47,9 @@ to start client
 👤 **UPenn Game Enthusiasts**
 
 * Github: [@grounded-tako](https://github.com/grounded-tako)
+
+## Useful Links and Documentations
+<hr></hr>
+
+- [Project Setup] (https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/)
+- [DynamoDB with Express] ()
