@@ -21,13 +21,25 @@ npm install
 ## Usage
 
 ```sh
-DEBUG=gamereviewwebsite:* npm start
+to start server
+  cd api
+  npm start
+
+to start client
+  cd client
+  npm start
 ```
 
 ## Run tests
 
 ```sh
-npm start
+to start server
+  cd api
+  DEBUG=gamereviewwebsite:* npm start
+
+to start client
+  cd client
+  npm start
 ```
 
 ## Author
