@@ -48,6 +48,8 @@ to start client
 
 * Github: [@grounded-tako](https://github.com/grounded-tako)
 
+👤Jiatai Sun
+* Github: [@albert81915929](https://github.com/albert81915929)
 ## Useful Links and Documentations
 <br>
 <hr></hr>
