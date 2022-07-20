@@ -49,8 +49,10 @@ to start client
 * Github: [@grounded-tako](https://github.com/grounded-tako)
 
 ## Useful Links and Documentations
+<br>
 <hr></hr>
 
 - [Project Setup] (https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/)
 - [DynamoDB with Express] (https://referbruv.com/blog/reading-and-writing-to-aws-dynamodb-using-nodejs-with-example/)
 - [AWS credentials] (https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/global-config-object.html)
+</br>
