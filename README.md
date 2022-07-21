@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to gamereviewwebsite 👋</h1>
+<h1 align="center">Welcome to Game Tracker 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -42,15 +42,19 @@ to start client
   npm start
 ```
 
-## Author
+## Authors
 
 👤 **UPenn Game Enthusiasts**
 
 * Github: [@grounded-tako](https://github.com/grounded-tako)
 
+👤Jiatai Sun
+* Github: [@albert81915929](https://github.com/albert81915929)
 ## Useful Links and Documentations
+<br>
 <hr></hr>
 
-- [Project Setup] (https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/)
-- [DynamoDB with Express] (https://referbruv.com/blog/reading-and-writing-to-aws-dynamodb-using-nodejs-with-example/)
-- [AWS credentials] (https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/global-config-object.html)
+-   [Project Setup](https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/)
+-   [DynamoDB with Express](https://referbruv.com/blog/reading-and-writing-to-aws-dynamodb-using-nodejs-with-example/)
+-   [AWS credentials](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/global-config-object.html)
+</br>
