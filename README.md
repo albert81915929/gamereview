@@ -44,8 +44,8 @@ to start client
 
 ## Authors
 
-👤 **UPenn Game Enthusiasts**
-
+**UPenn Game Enthusiasts**
+👤Yutian Zhang
 * Github: [@grounded-tako](https://github.com/grounded-tako)
 
 👤Jiatai Sun
@@ -58,3 +58,4 @@ to start client
 -   [DynamoDB with Express](https://referbruv.com/blog/reading-and-writing-to-aws-dynamodb-using-nodejs-with-example/)
 -   [AWS credentials](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/global-config-object.html)
 </br>
+-   [AWS ddb pipeline](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-importexport-ddb.html)
