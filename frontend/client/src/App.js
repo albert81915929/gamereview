@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./nintendo-2.svg";
 import "./App.css";
 import React, { Component } from "react";
 
