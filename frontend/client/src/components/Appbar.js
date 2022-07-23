@@ -65,8 +65,7 @@ export default function Appbar() {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            <img src={logo} alt="logo" />
-            {/* <MenuIcon /> */}
+            <MenuIcon />
           </IconButton>
           <Typography
             variant="h6"
