@@ -37,6 +37,10 @@ to start server
   cd api
   DEBUG=gamereviewwebsite:* npm start
 
+  or
+  cd api
+  nodemon /bin/www to enter interactive development mode
+
 to start client
   cd client
   npm start
