@@ -6,35 +6,40 @@ var logger = require("morgan");
 var cors = require("cors");
 var AWS = require("aws-sdk");
 
+// Routers
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
-var testAPIRouter = require("./routes/testAPI");
+var testAPIRouter = require("./routes/testapi");
+var testDDBRouter = require("./routes/testDDB");
+
+// Configurations
+require("dotenv").config();
+AWS.config.update({region: "us-west-1"})
+console.log(AWS.config)
 
 var app = express();
-AWS.config.update({ region: "us-west-1" });
-console.log("Region: ", AWS.config.region);
 
 // create a DynamoDB client
-var client = new AWS.DynamoDB(AWS.config);
-var tableName = "ProductCatalog";
+var ddbclient = new AWS.DynamoDB(AWS.config);
+// var tableName = "ProductCatalog";
 
-app.get("/rows/all", (req, res) => {
-  var params = {
-    TableName: tableName,
-  };
+// app.get("/rows/all", (req, res) => {
+//   var params = {
+//     TableName: tableName,
+//   };
 
-  client.scan(params, (err, data) => {
-    if (err) {
-      console.log(err);
-    } else {
-      var items = [];
-      for (var i in data.Items) items.push(data.Items[i]["Title"]);
-      console.log(items);
-      res.contentType = "application/json";
-      res.send(items);
-    }
-  });
-});
+//   ddbclient.scan(params, (err, data) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       var items = [];
+//       for (var i in data.Items) items.push(data.Items[i]["Title"]);
+//       console.log(items);
+//       res.contentType = "application/json";
+//       res.send(items);
+//     }
+//   });
+// });
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
@@ -49,10 +54,10 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
-app.use("/testAPI", testAPIRouter);
+app.use("/testapi", testAPIRouter);
+app.use("/testddb", testDDBRouter);
 
-// test ddb connection
-app.get("/rows/all", (req, res) => {});
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
@@ -70,4 +75,7 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-module.exports = app;
+module.exports = {
+  app: app,
+  ddbclient: ddbclient,
+}
