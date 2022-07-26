@@ -48,8 +48,8 @@ to start client
 
 ## Authors
 
-**UPenn Game Enthusiasts**
-  👤Yutian Zhang
+**UPenn Game Enthusiasts**\
+👤Yutian Zhang
 * Github: [@grounded-tako](https://github.com/grounded-tako)
 
 👤Jiatai Sun
