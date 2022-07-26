@@ -54,6 +54,10 @@ to start client
 
 👤Jiatai Sun
 * Github: [@albert81915929](https://github.com/albert81915929)
+
+:hamster:Fiona Feng
+* Github:[@effy46](https://github.com/effy46)
+
 ## Useful Links and Documentations
 <br>
 <hr></hr>
